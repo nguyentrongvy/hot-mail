@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner {
+    form {
+        width: 500px;
+    }
+
+    .username {
+        font-weight: 600;
+        label {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        input {
+            height: 45px;
+        }
+    }
+
+    .password {
+        font-weight: 600;
+
+        label {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        input {
+            height: 35px;
+        }
+    }
+
+    button {
+        font-size: 14px;
+        padding: 4px 15px;
+        border-radius: 6px;
+        height: 50px;
+        width: 100%;
+
+        span {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+
+    .logo {
+        padding-left: 130px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+
+        svg {
+            font-size: 60px;
+        }
+    }
+}
